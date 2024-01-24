@@ -28,3 +28,21 @@ cd /root ile başlarsan, nerede olursan ol istediğin directorye gidersin
 touch <filename> klasör oluşturmanı sağlıyor. tocuc kalsor1 klasor2 .... diye oluşturabilirsin. 
 
 touch ../<filename> bir üst klasöre oluşturursun. kendi ana root altına oluşturmak için touch ~/<filename> yazarsın. (Not: aslında asıl amacı zaman etiketi vurması. ama istediğin isimdeki dosyaları hemen ve hızlıca oluşturabiliyorsun.
+
+touch ile klasör yaratıp isim vermek istediğinde boşluk bırakmak istiyorsan eğer;
+touch mert\ efe    yazarsam mert efe isimli klasörü oluşturur. 
+
+farklı gösterimleri:
+touch 'mert efe'
+touch \mert efe
+
+\    -   Bu işaretten sonra yazan her şeyi text olarak kabul et demek.
+
+mkdir <filename> -  creating directories
+mkdir -p optinı kullandığında tek bir satıda istersek parent directory yapısı oluşturuyor. mkdir -p klasor1/klasor2/klasor3... gibi klasör  iç içe directory oluşturabiliyoruz.
+
+nano   -  text editörü açar. 
+^      -   CTRL'yi ifade ediyor.
+M      -  Windows ALT tuşu / Mac esc tuşu
+
+
