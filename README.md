@@ -44,5 +44,5 @@ mkdir -p optinı kullandığında tek bir satıda istersek parent directory yap�
 nano   -  text editörü açar. 
 ^      -   CTRL'yi ifade ediyor.
 M      -  Windows ALT tuşu / Mac esc tuşu
-
+ctrl+4  -  Find&Replace
 
